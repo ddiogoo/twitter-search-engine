@@ -57,3 +57,13 @@
 2024-12-25 18:36:23 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterToKafkaStatusListener - Twitter status with text: nullam ipsum orci Microservices lacinia Praesent 
 2024-12-25 18:36:33 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterToKafkaStatusListener - Twitter status with text: diam Aenean imperdiet pellentesque Microservices at placerat 
 2024-12-25 18:36:43 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterToKafkaStatusListener - Twitter status with text: porttitor placerat porttitor ornare imperdiet Java ornare porttitor gravida 
+2024-12-25 20:19:28 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 22.0.2 with PID 65492 (/home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo/twitter-to-kafka-service/target/classes started by diogo in /home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo)
+2024-12-25 20:19:28 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-25 20:19:29 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.815 seconds (process running for 2.738)
+2024-12-25 20:19:29 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome message: Hello microservices!
+2024-12-25 20:19:29 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Keywords: [Java, Microservices, Kafka, Elasticsearch]
+2024-12-25 20:19:29 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started successfully!
+2024-12-25 20:19:29 [main] INFO  c.m.d.t.t.k.s.r.MockTwitterToKafkaStreamRunner - Starting mock filtering twitter stream for keywords [Java, Microservices, Kafka, Elasticsearch]
+2024-12-25 20:19:29 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterToKafkaStatusListener - Twitter status with text: nunc viverra libero Kafka sit viverra 
+2024-12-25 20:19:39 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterToKafkaStatusListener - Twitter status with text: Curabitur viverra diam placerat sit Elasticsearch ornare lacinia purus 
+2024-12-25 20:19:49 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterToKafkaStatusListener - Twitter status with text: dignissim blandit congue Curabitur vel Elasticsearch viverra et nunc odio 
