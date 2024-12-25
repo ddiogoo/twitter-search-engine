@@ -1,8 +1,27 @@
-2024-12-23 21:21:37 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.microservice.twitter_to_kafka_service.TwitterToKafkaServiceApplicationTests]: TwitterToKafkaServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-12-23 21:21:37 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.microservice.twitter_to_kafka_service.TwitterToKafkaServiceApplication for test class com.microservice.twitter_to_kafka_service.TwitterToKafkaServiceApplicationTests
-2024-12-23 21:21:37 [main] INFO  c.m.t.TwitterToKafkaServiceApplicationTests - Starting TwitterToKafkaServiceApplicationTests using Java 17.0.12 with PID 76410 (started by diogo in /home/diogo/GitHub/Learning/twitter-search-engine/twitter-to-kafka-service)
-2024-12-23 21:21:37 [main] INFO  c.m.t.TwitterToKafkaServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
-2024-12-23 21:21:38 [main] INFO  c.m.t.TwitterToKafkaServiceApplicationTests - Started TwitterToKafkaServiceApplicationTests in 0.538 seconds (process running for 3.162)
-2024-12-23 21:21:38 [main] INFO  c.m.t.TwitterToKafkaServiceApplication - App started at 2024-12-23 21:21:38.239290233
-2024-12-23 21:21:38 [main] INFO  c.m.t.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Spring Boot, Elasticsearch]
-2024-12-23 21:21:38 [main] INFO  c.m.t.TwitterToKafkaServiceApplication - Hello Microservices!
+2024-12-25 00:05:58 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.microservice.twitter_to_kafka_service.TwitterToKafkaServiceApplicationTests]: TwitterToKafkaServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-25 00:05:59 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.microservice.twitter_to_kafka_service.TwitterToKafkaServiceApplication for test class com.microservice.twitter_to_kafka_service.TwitterToKafkaServiceApplicationTests
+2024-12-25 00:05:59 [main] INFO  c.m.t.TwitterToKafkaServiceApplicationTests - Starting TwitterToKafkaServiceApplicationTests using Java 17.0.12 with PID 66891 (started by diogo in /home/diogo/GitHub/Learning/twitter-search-engine/twitter-to-kafka-service)
+2024-12-25 00:05:59 [main] INFO  c.m.t.TwitterToKafkaServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-25 00:06:00 [main] INFO  c.m.t.TwitterToKafkaServiceApplicationTests - Started TwitterToKafkaServiceApplicationTests in 0.951 seconds (process running for 3.008)
+2024-12-25 00:06:00 [main] INFO  c.m.t.TwitterToKafkaServiceApplication - App started at 2024-12-25 00:06:00.197199581
+2024-12-25 00:06:00 [main] INFO  c.m.t.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Spring Boot, Elasticsearch]
+2024-12-25 00:06:00 [main] INFO  c.m.t.TwitterToKafkaServiceApplication - Hello Microservices!
+2024-12-25 00:06:00 [main] INFO  c.m.t.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Kafka, Spring Boot, Elasticsearch]
+2024-12-25 00:06:00 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-12-25 00:06:02 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-12-25 00:06:02 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
+2024-12-25 00:06:02 [Twitter Stream consumer /  [1][Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-12-25 00:06:03 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-12-25 00:06:03 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 500 milliseconds
+2024-12-25 00:06:03 [SpringApplicationShutdownHook] INFO  c.m.t.r.i.TwitterKafkaStreamRunner - Closing twitter stream
+2024-12-25 00:08:31 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.microservice.twitter_to_kafka_service.TwitterToKafkaServiceApplicationTests]: TwitterToKafkaServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-25 00:08:31 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.microservice.twitter_to_kafka_service.TwitterToKafkaServiceApplication for test class com.microservice.twitter_to_kafka_service.TwitterToKafkaServiceApplicationTests
+2024-12-25 00:08:32 [main] INFO  c.m.t.TwitterToKafkaServiceApplicationTests - Starting TwitterToKafkaServiceApplicationTests using Java 17.0.12 with PID 68988 (started by diogo in /home/diogo/GitHub/Learning/twitter-search-engine/twitter-to-kafka-service)
+2024-12-25 00:08:32 [main] INFO  c.m.t.TwitterToKafkaServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-25 00:08:32 [main] INFO  c.m.t.TwitterToKafkaServiceApplicationTests - Started TwitterToKafkaServiceApplicationTests in 0.526 seconds (process running for 1.279)
+2024-12-25 00:08:32 [main] INFO  c.m.t.TwitterToKafkaServiceApplication - App started at 2024-12-25 00:08:32.491581201
+2024-12-25 00:08:32 [main] INFO  c.m.t.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Spring Boot, Elasticsearch]
+2024-12-25 00:08:32 [main] INFO  c.m.t.TwitterToKafkaServiceApplication - Hello Microservices!
+2024-12-25 00:08:32 [main] INFO  c.m.t.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Kafka, Spring Boot, Elasticsearch]
+2024-12-25 00:08:32 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-12-25 00:08:33 [SpringApplicationShutdownHook] INFO  c.m.t.r.i.TwitterKafkaStreamRunner - Closing twitter stream
