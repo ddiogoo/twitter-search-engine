@@ -4,15 +4,13 @@ This project is for academic purposes only. The project is a search engine that 
 
 ## Microservices Architecture
 
-The project is divided into several microservices, as microservices are implemented, they will be added to this list with their respective description.:
+The project is divided into several microservices, as microservices are implemented, they will be added to this list with their respective description:
 
 - `twitter-to-kafka-service`: This microservice fetches tweets from the Twitter API and sends them to a Kafka topic.
 
 See the diagram below for a visual representation of the microservices architecture:
 
 ![Microservices Architecture Diagram](./.github/microservices_architecture.jpg)
-
-This project is a work in progress, and more microservices will be added as the project progresses.
 
 ## Configuration
 
