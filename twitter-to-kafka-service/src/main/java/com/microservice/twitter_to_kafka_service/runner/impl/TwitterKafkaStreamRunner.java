@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Component;
 
 import com.microservice.twitter_to_kafka_service.config.TwitterToKafkaServiceConfigData;
@@ -17,6 +18,7 @@ import twitter4j.TwitterStream;
 import twitter4j.TwitterStreamFactory;
 
 @Component
+@ConditionalOnProperty(name = "twitter-to-kafka-service.enable-mock-tweets", havingValue = "false", matchIfMissing = true)
 public class TwitterKafkaStreamRunner implements StreamRunner {
   private static final Logger LOG = LoggerFactory.getLogger(TwitterKafkaStreamRunner.class);
   private TwitterStream twitterStream;
@@ -46,6 +48,9 @@ public class TwitterKafkaStreamRunner implements StreamRunner {
     addFilter();
   }
 
+  /**
+   * Add filter to twitter stream
+   */
   private void addFilter() {
     String[] keyWords = twitterToKafkaServiceConfigData.getTwitterKeywords().toArray(new String[0]);
     FilterQuery filterQuery = new FilterQuery(keyWords);
