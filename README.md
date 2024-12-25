@@ -2,6 +2,18 @@
 
 This project is for academic purposes only. The project is a search engine that uses the Twitter API to search for tweets based on a keyword. The search engine will return the tweets that contain the keyword and display them in a user-friendly way. The search engine will also display the number of tweets that contain the keyword and the number of tweets that do not contain the keyword.
 
+## Microservices Architecture
+
+The project is divided into several microservices, as microservices are implemented, they will be added to this list with their respective description.:
+
+- `twitter-to-kafka-service`: This microservice fetches tweets from the Twitter API and sends them to a Kafka topic.
+
+See the diagram below for a visual representation of the microservices architecture:
+
+![Microservices Architecture Diagram](./.github/microservices_architecture.jpg)
+
+This project is a work in progress, and more microservices will be added as the project progresses.
+
 ## Configuration
 
 ### Twitter API
