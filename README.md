@@ -115,6 +115,10 @@ Follow the environment variables to configure the `twitter-to-kafka-service` mic
 
   The `enable-mock-tweets` on application.yaml must be set to `false`.
 
+## License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
 ## Notes
 
 This README will be updated as the project progresses.
