@@ -1,0 +1,59 @@
+2024-12-25 17:34:20 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 22.0.2 with PID 224643 (/home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo/twitter-to-kafka-service/target/classes started by diogo in /home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo)
+2024-12-25 17:34:20 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-25 17:34:20 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.351 seconds (process running for 4.872)
+2024-12-25 17:34:20 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started successfully!
+2024-12-25 17:34:20 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome message: Hello microservices!
+2024-12-25 17:34:20 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Keywords: [Java, Microservices, Kafka, Elasticsearch]
+2024-12-25 17:34:33 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 22.0.2 with PID 224885 (/home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo/twitter-to-kafka-service/target/classes started by diogo in /home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo)
+2024-12-25 17:34:33 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-25 17:34:34 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.941 seconds (process running for 1.388)
+2024-12-25 17:34:34 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome message: Hello microservices!
+2024-12-25 17:34:34 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Keywords: [Java, Microservices, Kafka, Elasticsearch]
+2024-12-25 17:34:34 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started successfully!
+2024-12-25 17:54:01 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 22.0.2 with PID 228656 (/home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo/twitter-to-kafka-service/target/classes started by diogo in /home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo)
+2024-12-25 17:54:01 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-25 17:54:02 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.036 seconds (process running for 3.665)
+2024-12-25 17:54:02 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome message: Hello microservices!
+2024-12-25 17:54:02 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Keywords: [Java, Microservices, Kafka, Elasticsearch]
+2024-12-25 17:54:02 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started successfully!
+2024-12-25 17:54:02 [main] INFO  c.m.d.t.t.k.s.r.TwitterToKafkaStreamRunner - Started filtering twitter stream for keywords: [Java, Microservices, Kafka, Elasticsearch]
+2024-12-25 17:54:02 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-12-25 17:54:04 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-12-25 17:54:04 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
+2024-12-25 17:54:04 [Twitter Stream consumer /  [1][Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-12-25 17:54:04 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-12-25 17:54:04 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 500 milliseconds
+2024-12-25 17:54:05 [Twitter Stream consumer /  [1][Waiting for 500 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-12-25 17:54:06 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-12-25 17:54:06 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 1000 milliseconds
+2024-12-25 17:54:07 [Twitter Stream consumer /  [1][Waiting for 1000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-12-25 17:54:07 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-12-25 17:54:07 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 2000 milliseconds
+2024-12-25 17:54:09 [Twitter Stream consumer /  [1][Waiting for 2000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-12-25 17:54:10 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-12-25 17:54:10 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 4000 milliseconds
+2024-12-25 17:54:14 [Twitter Stream consumer /  [1][Waiting for 4000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-12-25 17:54:14 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-12-25 17:54:14 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 8000 milliseconds
+2024-12-25 17:54:16 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.TwitterToKafkaStreamRunner - Closing twitter stream
+2024-12-25 18:05:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 22.0.2 with PID 231439 (/home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo/twitter-to-kafka-service/target/classes started by diogo in /home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo)
+2024-12-25 18:05:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-25 18:05:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.795 seconds (process running for 2.885)
+2024-12-25 18:05:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome message: Hello microservices!
+2024-12-25 18:05:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Keywords: [Java, Microservices, Kafka, Elasticsearch]
+2024-12-25 18:05:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started successfully!
+2024-12-25 18:05:07 [main] INFO  c.m.d.t.t.k.s.r.MockTwitterToKafkaStreamRunner - Starting mock filtering twitter stream for keywords [Java, Microservices, Kafka, Elasticsearch]
+2024-12-25 18:05:07 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterToKafkaStatusListener - Twitter status with text: porttitor viverra amet consectetur mauris Elasticsearch mauris Aenean odio 
+2024-12-25 18:05:17 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterToKafkaStatusListener - Twitter status with text: mauris laoreet imperdiet laoreet Elasticsearch porttitor diam Lorem 
+2024-12-25 18:05:27 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterToKafkaStatusListener - Twitter status with text: placerat eleifend lacinia eleifend Java diam ut ut 
+2024-12-25 18:36:13 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 22.0.2 with PID 5673 (/home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo/twitter-to-kafka-service/target/classes started by diogo in /home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo)
+2024-12-25 18:36:13 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-25 18:36:13 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.985 seconds (process running for 3.415)
+2024-12-25 18:36:13 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome message: Hello microservices!
+2024-12-25 18:36:13 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Keywords: [Java, Microservices, Kafka, Elasticsearch]
+2024-12-25 18:36:13 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App started successfully!
+2024-12-25 18:36:13 [main] INFO  c.m.d.t.t.k.s.r.MockTwitterToKafkaStreamRunner - Starting mock filtering twitter stream for keywords [Java, Microservices, Kafka, Elasticsearch]
+2024-12-25 18:36:13 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterToKafkaStatusListener - Twitter status with text: Aenean Curabitur porttitor Microservices blandit blandit 
+2024-12-25 18:36:23 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterToKafkaStatusListener - Twitter status with text: nullam ipsum orci Microservices lacinia Praesent 
+2024-12-25 18:36:33 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterToKafkaStatusListener - Twitter status with text: diam Aenean imperdiet pellentesque Microservices at placerat 
+2024-12-25 18:36:43 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterToKafkaStatusListener - Twitter status with text: porttitor placerat porttitor ornare imperdiet Java ornare porttitor gravida 
