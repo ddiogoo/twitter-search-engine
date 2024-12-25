@@ -90,7 +90,7 @@ Follow the environment variables to configure the `twitter-to-kafka-service` mic
       </appender>
 
 
-      <logger name="com.microservice.twitter_to_kafka_service" level="info" additivity="false">
+      <logger name="com.microservices.demo" level="info" additivity="false">
           <appender-ref ref="FILE"/>
           <appender-ref ref="STDOUT"/>
       </logger>
