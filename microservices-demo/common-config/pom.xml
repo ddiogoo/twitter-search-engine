@@ -3,11 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.microservices.demo</groupId>
-        <artifactId>kafka</artifactId>
+        <artifactId>microservices-demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
-    <artifactId>kafka-admin</artifactId>
+    <artifactId>common-config</artifactId>
 
     <dependencies>
         <dependency>
@@ -16,8 +15,18 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.kafka</groupId>
-            <artifactId>spring-kafka</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.retry</groupId>
+            <artifactId>spring-retry</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
     </dependencies>
 </project>

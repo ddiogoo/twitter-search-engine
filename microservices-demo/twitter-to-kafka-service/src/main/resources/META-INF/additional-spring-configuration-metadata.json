@@ -29,5 +29,30 @@
       "name": "twitter-to-kafka-service.mock-max-tweet-length",
       "type": "java.lang.String",
       "description": "Description for twitter-to-kafka-service.mock-max-tweet-length."
+    },
+    {
+      "name": "retry-config.initial-interval-ms",
+      "type": "java.lang.String",
+      "description": "Description for retry-config.initial-interval-ms."
+    },
+    {
+      "name": "retry-config.max-interval-ms",
+      "type": "java.lang.String",
+      "description": "Description for retry-config.max-interval-ms."
+    },
+    {
+      "name": "retry-config.multiplier",
+      "type": "java.lang.Double",
+      "description": "Description for retry-config.multiplier."
+    },
+    {
+      "name": "retry-config.max-attempts",
+      "type": "java.lang.String",
+      "description": "Description for retry-config.max-attempts."
+    },
+    {
+      "name": "retry-config.sleep-time-ms",
+      "type": "java.lang.String",
+      "description": "Description for retry-config.sleep-time-ms."
     }
   ] }
