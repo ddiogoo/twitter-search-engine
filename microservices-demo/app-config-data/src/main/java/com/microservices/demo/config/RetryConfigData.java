@@ -8,14 +8,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ConfigurationProperties(prefix = "retry-config")
 public class RetryConfigData {
-/*
-* retry-config:
-  initial-interval-ms: 1000
-  max-interval-ms: 10000
-  mutiplier: 2
-  max-attempts: 3
-  sleep-time-ms: 2000
-* */
     private Long initialIntervalMs;
     private Long maxIntervalMs;
     private Double multiplier;
