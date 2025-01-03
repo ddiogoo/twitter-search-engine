@@ -11,6 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.retry.RetryContext;
 import org.springframework.retry.support.RetryTemplate;
 import org.springframework.stereotype.Component;
@@ -82,16 +83,17 @@ public class KafkaAdminClient {
 
     private HttpStatus getSchemaRegistryStatus() {
         try {
-            return (HttpStatus) webClient
-                    .method(HttpMethod.GET)
+            return (HttpStatus) webClient.method(HttpMethod.GET)
                     .uri(kafkaConfigData.getSchemaRegistryUrl())
-                    .exchange()
-                    .map(ClientResponse::statusCode)
+                    .retrieve()
+                    .toBodilessEntity()
+                    .map(ResponseEntity::getStatusCode)
                     .block();
         } catch (Exception e) {
             return HttpStatus.SERVICE_UNAVAILABLE;
         }
     }
+
 
 
     private void sleep(Long sleepTimeMs) {

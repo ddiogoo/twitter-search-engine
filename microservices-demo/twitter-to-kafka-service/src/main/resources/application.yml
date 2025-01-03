@@ -1,3 +1,6 @@
+server:
+  port: 3000
+
 twitter-to-kafka-service:
   welcome-message: Hello microservices!
   twitter-keywords: [ Java, Microservices, Kafka, Elasticsearch ]
