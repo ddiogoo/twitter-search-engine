@@ -2,6 +2,7 @@ package com.microservices.demo.kafka.admin.client;
 
 import com.microservices.demo.config.KafkaConfigData;
 import com.microservices.demo.config.RetryConfigData;
+import com.microservices.demo.kafka.admin.config.KafkaAdminConfig;
 import com.microservices.demo.kafka.admin.exception.KafkaClientException;
 import org.apache.kafka.clients.admin.AdminClient;
 import org.apache.kafka.clients.admin.CreateTopicsResult;
@@ -15,7 +16,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.retry.RetryContext;
 import org.springframework.retry.support.RetryTemplate;
 import org.springframework.stereotype.Component;
-import org.springframework.web.reactive.function.client.ClientResponse;
 import org.springframework.web.reactive.function.client.WebClient;
 
 import java.util.Collection;
@@ -29,17 +29,19 @@ public class KafkaAdminClient {
 
     private final KafkaConfigData kafkaConfigData;
     private final RetryConfigData retryConfigData;
-    private final AdminClient adminClient;
+    private final KafkaAdminConfig kafkaAdminClient;
     private final RetryTemplate retryTemplate;
     private final WebClient webClient;
+    private final AdminClient adminClient;
     public KafkaAdminClient(KafkaConfigData kafkaConfigData, RetryConfigData retryConfigData,
-                            AdminClient adminClient, RetryTemplate retryTemplate, WebClient webClient
+                            KafkaAdminConfig kafkaAdminClient, RetryTemplate retryTemplate, WebClient webClient
     ) {
         this.kafkaConfigData = kafkaConfigData;
         this.retryConfigData = retryConfigData;
-        this.adminClient = adminClient;
+        this.kafkaAdminClient = kafkaAdminClient;
         this.retryTemplate = retryTemplate;
         this.webClient = webClient;
+        this.adminClient = this.kafkaAdminClient.adminClient();
     }
 
     public void createTopics() {
