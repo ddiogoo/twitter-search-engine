@@ -1,6 +1,5 @@
 package com.microservices.demo.kafka.producer.config.services.impl;
 
-import com.google.common.util.concurrent.ListenableFuture;
 import com.microservices.demo.kafka.model.avro.TwitterAvroModel;
 import com.microservices.demo.kafka.producer.config.services.IKafkaProducer;
 import jakarta.annotation.PreDestroy;
@@ -25,9 +24,29 @@ public class TwitterKafkaProducer implements IKafkaProducer<Long, TwitterAvroMod
     @Override
     public void send(String topicName, Long key, TwitterAvroModel message) {
         LOG.info("Sending message='{}' to topic='{}'", message, topicName);
-        CompletableFuture<SendResult<Long, TwitterAvroModel>> kafkaResultFuture = kafkaTemplate.send(topicName, key,
-                message);
-        addCallback(topicName, message, kafkaResultFuture);
+        try {
+            CompletableFuture<SendResult<Long, TwitterAvroModel>> kafkaResultFuture =
+                    kafkaTemplate.send(topicName, key, message);
+            addCallback(topicName, message, kafkaResultFuture);
+        } catch (Throwable t) {
+            LOG.error("Error on sending message='{}' to topic='{}'", message, topicName, t);
+        }
+    }
+
+    private static void addCallback(String topicName, TwitterAvroModel message,
+                                    CompletableFuture<SendResult<Long, TwitterAvroModel>> kafkaResultFuture)
+    {
+        kafkaResultFuture.whenComplete((result, throwable) -> {
+            LOG.info("Processing producer message {} from topic {}", message, topicName);
+            if (throwable != null) {
+                LOG.error("Error while sending message {} to topic {}", message, topicName, throwable);
+            } else {
+                RecordMetadata recordMetadata = result.getRecordMetadata();
+                LOG.info("Received new metadata. Topic: {}; Partition: {}; Offset {}; Timestamp: {}, at time {}",
+                        recordMetadata.topic(), recordMetadata.partition(), recordMetadata.offset(),
+                        recordMetadata.timestamp(), System.nanoTime());
+            }
+        });
     }
 
     @PreDestroy
@@ -36,20 +55,5 @@ public class TwitterKafkaProducer implements IKafkaProducer<Long, TwitterAvroMod
             LOG.info("Closing kafka producer!");
             kafkaTemplate.destroy();
         }
-    }
-
-    private static void addCallback(String topicName, TwitterAvroModel message,
-                                    CompletableFuture<SendResult<Long, TwitterAvroModel>> kafkaResultFuture)
-    {
-        kafkaResultFuture.whenComplete((result, throwable) -> {
-            if(throwable != null) {
-                LOG.error("Error while sending message {} to topic {}", message, topicName, throwable);
-            } else {
-                RecordMetadata recordMetadata = result.getRecordMetadata();
-                LOG.debug("Received new metadata. Topic: {}; Partition: {}; Offset {}; Timestamp: {}, at time {}",
-                        recordMetadata.topic(), recordMetadata.partition(), recordMetadata.offset(),
-                        recordMetadata.timestamp(), System.nanoTime());
-            }
-        });
     }
 }
