@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://GitHub/Learning/twitter-search-engine/microservices-demo/config-server-repository
+          clone-on-start: true
+    fail-fast: true
