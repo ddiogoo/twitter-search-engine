@@ -1,84 +1,18 @@
-2025-01-12 14:08:20 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
-2025-01-12 14:08:20 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 17.0.13 with PID 22250 (/home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo/config-server/target/classes started by diogo in /home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo)
-2025-01-12 14:08:20 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2025-01-12 14:08:21 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9c96902-219f-30bf-bfb3-dcf4061b3cd9
-2025-01-12 14:08:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2025-01-12 14:08:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2025-01-12 14:08:22 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-01-12 14:08:22 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-12 14:08:22 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-01-12 14:08:22 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1467 ms
-2025-01-12 14:08:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2025-01-12 14:08:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
-2025-01-12 14:08:22 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 2.375 seconds (process running for 3.769)
-2025-01-12 14:23:52 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-12 14:23:52 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-01-12 14:23:52 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
-2025-01-12 14:36:30 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-12 14:36:30 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-01-12 14:36:36 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 17.0.13 with PID 28711 (/home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo/config-server/target/classes started by diogo in /home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo)
-2025-01-12 14:36:36 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2025-01-12 14:36:36 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
-2025-01-12 14:36:37 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9c96902-219f-30bf-bfb3-dcf4061b3cd9
-2025-01-12 14:36:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2025-01-12 14:36:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2025-01-12 14:36:38 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-01-12 14:36:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-12 14:36:38 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-01-12 14:36:38 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1599 ms
-2025-01-12 14:36:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2025-01-12 14:36:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
-2025-01-12 14:36:38 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 3.354 seconds (process running for 4.471)
-2025-01-12 14:37:09 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-12 14:37:09 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-01-12 14:37:20 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
-2025-01-12 14:37:20 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 17.0.13 with PID 28997 (/home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo/config-server/target/classes started by diogo in /home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo)
-2025-01-12 14:37:20 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2025-01-12 14:37:21 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9c96902-219f-30bf-bfb3-dcf4061b3cd9
-2025-01-12 14:37:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2025-01-12 14:37:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2025-01-12 14:37:21 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-01-12 14:37:21 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-12 14:37:21 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-01-12 14:37:21 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 963 ms
-2025-01-12 14:37:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2025-01-12 14:37:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
-2025-01-12 14:37:22 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 1.887 seconds (process running for 2.599)
-2025-01-12 14:40:16 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-12 14:40:16 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-01-12 14:40:16 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
-2025-01-12 14:46:33 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-12 14:46:33 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-01-12 14:46:52 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
-2025-01-12 14:46:52 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 17.0.13 with PID 30736 (/home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo/config-server/target/classes started by diogo in /home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo)
-2025-01-12 14:46:52 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2025-01-12 14:46:53 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9c96902-219f-30bf-bfb3-dcf4061b3cd9
-2025-01-12 14:46:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2025-01-12 14:46:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2025-01-12 14:46:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-01-12 14:46:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-12 14:46:53 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-01-12 14:46:53 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1686 ms
-2025-01-12 14:46:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2025-01-12 14:46:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
-2025-01-12 14:46:54 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 2.501 seconds (process running for 3.167)
-2025-01-12 14:47:07 [http-nio-8888-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-12 14:47:07 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-01-12 14:47:07 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-2025-01-12 14:57:25 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-12 14:57:25 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-01-12 14:58:24 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
-2025-01-12 14:58:24 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 17.0.13 with PID 32672 (/home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo/config-server/target/classes started by diogo in /home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo)
-2025-01-12 14:58:24 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2025-01-12 14:58:29 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9c96902-219f-30bf-bfb3-dcf4061b3cd9
-2025-01-12 14:58:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2025-01-12 14:58:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2025-01-12 14:58:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-01-12 14:58:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-12 14:58:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-01-12 14:58:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8627 ms
-2025-01-12 14:58:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2025-01-12 14:58:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
-2025-01-12 14:58:34 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 11.177 seconds (process running for 18.628)
-2025-01-12 14:59:12 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-12 14:59:12 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-17 09:35:57 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-01-17 09:35:57 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 17.0.13 with PID 5329 (/home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo/config-server/target/classes started by diogo in /home/diogo/GitHub/Learning/twitter-search-engine/microservices-demo)
+2025-01-17 09:35:57 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2025-01-17 09:36:07 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9c96902-219f-30bf-bfb3-dcf4061b3cd9
+2025-01-17 09:36:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+2025-01-17 09:36:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-01-17 09:36:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-17 09:36:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-17 09:36:13 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-17 09:36:13 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 15465 ms
+2025-01-17 09:36:15 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-01-17 09:36:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
+2025-01-17 09:36:15 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 20.144 seconds (process running for 24.467)
+2025-01-17 09:36:49 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-17 09:36:49 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-17 09:36:49 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-17 09:49:16 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-17 09:49:16 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete

@@ -14,5 +14,6 @@ spring:
       server:
         git:
           uri: file://GitHub/Learning/twitter-search-engine/microservices-demo/config-server-repository
+          default-label: main
           clone-on-start: true
     fail-fast: true
